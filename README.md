@@ -39,4 +39,4 @@ Binary values toggle periodically to show state transitions.
 
 ### Linux
 ```bash
-gcc -O2 -Wall -o bacnet_sim bacnet_sim.c -lm
+gcc -O2 -Wall -o bacnet_sim bacnet_sim.c -lws2_32 -lm
